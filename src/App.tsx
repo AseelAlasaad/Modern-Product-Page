@@ -6,12 +6,14 @@ import Products from './components/Products/Products';
 import './App.css';
 import { Header } from './components/Header/Header';
 import Cart from './components/Cart/Cart';
+import CartProvider from './context/cart';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const queryClient = new QueryClient()
 function App() {
   return (
    <>
-    <QueryClientProvider client={queryClient}>
+   <CartProvider>
+<QueryClientProvider client={queryClient}>
    <Router>
    <Header />
      <Routes>
@@ -20,6 +22,8 @@ function App() {
      </Routes>
    </Router>
     </QueryClientProvider>
+   </CartProvider>
+    
    </>
   );
 }
