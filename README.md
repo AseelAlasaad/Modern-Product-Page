@@ -16,7 +16,7 @@ Add products to the cart from product cards
 
 
 ### Tech Stack:
-1. linkReact + TypeScript
+1. React + TypeScript
 2. TailwindCSS
 3. LocalStorage
 
