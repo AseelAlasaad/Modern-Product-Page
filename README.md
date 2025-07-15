@@ -1,6 +1,6 @@
-# Modern Product Page with Persistent Cart4.
+# Modern Product Page with Persistent Cart.
 
-This project displayed products and supports a modernshopping cart experience using localStorage
+This project displayed products and supports a modern shopping cart experience using localStorage
 
 ## Features:
 
