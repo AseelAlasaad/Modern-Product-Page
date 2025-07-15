@@ -20,7 +20,6 @@ const Products: React.FC = () => {
   if (error instanceof Error)
     return <div className="text-red-500">Error: {error.message}</div>
 
-  // save data is localstorage 
   return (
     <div className="max-w-6xl p-4 mx-auto">
       <h1 className="text-2xl font-bold mb-4 text-center"> All Products</h1>
